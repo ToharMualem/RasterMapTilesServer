@@ -25,5 +25,6 @@ tiling_obj.generate_tiles_folder(f"{tiling_obj.file_name}_Tiles")
 ```
 
 After your tiles folder is ready, run the server simply by running main.py with python.
+the html script called maptiles.html is an openlayers client, it requests localhost:8080 for tiles, you can change it in case which your server isn't local.
 
 
